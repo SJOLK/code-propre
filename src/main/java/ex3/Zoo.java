@@ -4,7 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Zoo {
+    /**
+     * Nom
+     */
     private String nom;
+    /**
+     * Liste d'animaux
+     */
     private List<Animal> animaux;
 
     public Zoo(String nom) {
@@ -12,8 +18,7 @@ public class Zoo {
         this.animaux = new ArrayList<>();
     }
 
-    public void addAnimal(String nomAnimal, String typeAnimal, String comportement) {
-        Animal animal = new Animal(nomAnimal, typeAnimal, comportement);
+    public void addAnimal(Animal animal){
         animaux.add(animal);
     }
 

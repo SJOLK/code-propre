@@ -13,8 +13,8 @@ public class LivretA extends CompteBancaire {
 	 * @param solde le solde initial du livret A
 	 * @param tauxRemuneration le taux de rémunération annuel
 	 */
-	public LivretA(String type ,double solde, double tauxRemuneration) {
-		super("LA", solde, 0); // Aucun découvert autorisé pour un livret A
+	public LivretA(double solde, double tauxRemuneration) {
+		super( solde, 0); // Aucun découvert autorisé pour un livret A
 		this.tauxRemuneration = tauxRemuneration;
 	}
 

@@ -4,10 +4,10 @@ public class TestCompteBancaire {
 
     public static void main(String[] args) {
         // Création d'un compte bancaire courant avec un solde de 1000 et un découvert autorisé de 500
-        CompteBancaire compteCourant = new CompteBancaire("CC",1000, 500);
+        CompteBancaire compteCourant = new CompteBancaire(1000, 500);
 
         // Création d'un livret A avec un solde de 2000 et un taux de rémunération de 2%
-        LivretA livretA = new LivretA("LA", 2000, 2);
+        LivretA livretA = new LivretA(2000, 2);
 
         // Tests pour Compte Courant
         System.out.println("=== Tests pour Compte Courant ===");
