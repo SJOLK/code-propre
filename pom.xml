@@ -4,7 +4,14 @@
 	<groupId>diginamic</groupId>
 	<artifactId>codePropre</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<build>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.maven.surefire</groupId>
+            <artifactId>surefire-shared-utils</artifactId>
+            <version>3.3.0</version>
+        </dependency>
+    </dependencies>
+    <build>
 		<sourceDirectory>src/main/java</sourceDirectory>
 		<plugins>
 			<plugin>

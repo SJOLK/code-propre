@@ -6,7 +6,7 @@ package ex2;
 public class CompteBancaire {
 
 	/** solde : solde du compte */
-	private double solde;
+	protected double solde;
 	
 	/** decouvert : un découvert est autorisé seulement pour les comptes courants */
 	private double decouvert;
